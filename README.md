@@ -37,6 +37,9 @@ TODO
 ### macOS
 TODO
 
+## Finger position
+TODO
+
 ## TODO
 - macOS layout
 - Complete README
