@@ -1,4 +1,4 @@
-# Colemak Custom
+# Keyboard Setup
 This repository contains my keyboard layout and setup.
 
 ![alt text](keyboard_layout_editor/keyboard_layout.png "Title")
