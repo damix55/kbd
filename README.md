@@ -1,7 +1,13 @@
 # Keyboard Setup
 This repository contains my keyboard layout and setup.
 
-![alt text](keyboard_layout_editor/keyboard_layout.png "Title")
+![alt text](keyboard_layout_editor/keyboard_layout.png "layout")
+
+## Features
+* Layout based on Colemak with a custom AltGr layer of letters and symbols
+* Designed to be efficient, with less finger movements possible
+* Arrow keys accessible without moving fingers from home row position
+* ...
 
 ## Hardware
 
