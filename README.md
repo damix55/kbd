@@ -9,7 +9,7 @@ This repository contains all the information about my keyboard layout and setup.
 **[Anne Pro 2](https://www.annepro.net/products/anne-pro-2)** with Gateron Switches, powered by [QMK](https://docs.qmk.fm/)
 * Adaptive mode: a special layer that adapts the setup to any computer (Windows or Linux) with standard US QWERTY layout, withuot needing any additional software (except for Windows that needs [WinCompose](https://github.com/samhocevar/wincompose) for characters outside US QWERTY)
 
-![anne pro 2](anne_pro2/photo.jpg)
+![anne pro 2](annepro2/photo.jpg)
 
 
 ### Default Layer
@@ -33,16 +33,16 @@ This repository contains all the information about my keyboard layout and setup.
 ## Laptop
 * **Huawei Matebook 14 (2018)**
 * Wide mode and Backspace on Caps Lock can be enabled on Windows by using [SharpKeys](https://github.com/randyrants/sharpkeys) and importing `windows/wide_mode.skl` 
-* Nav layer (only arrow key) can be enabled on Windows by using [AutoHotkey](https://www.autohotkey.com/) with `windows/nav_layer`. The nav layer can be enabled pressing `Alt`.
+* Nav layer (only arrow key) can be enabled on Windows by using [AutoHotkey](https://www.autohotkey.com/) with `windows/nav_layer`. The nav layer can be enabled pressing `Alt`
 
 ## Layout
-Custom Colemak layout with Right Alt layer of accented letters, symbols and numbers. 
+Custom Colemak layout with Right Alt layer of accented letters, symbols and numbers.
 
 ### Windows
-To install, just extract `windows/colemak_custom.zip` and run then `setup.exe`. Then select *Colemak - Custom* layout under *English (United States)* in settings.
+To install, just extract `windows/colemak_custom.zip` and run then `setup.exe`. Then select *Colemak - Custom* layout under *English (United States)* in settings
 
 ### Linux
-Override Colemak layout in `/usr/share/X11/xkb/symbols/US` with the one in `colemak_custom.xkb`. Then select *Colemak* layout under *English (US)* in settings.
+Override Colemak layout in `/usr/share/X11/xkb/symbols/US` with the one in `colemak_custom.xkb`. Then select *Colemak* layout under *English (US)* in settings
 
 ## Todo
 - [ ] Script for autoinstalling Colemak Custom in Linux
