@@ -6,10 +6,10 @@ This repository contains all the information about my keyboard layout and setup.
 * Arrow keys accessible without moving fingers from home row position with nav layer
 
 ## Mechanical Keyboard
-**[Anne Pro 2](https://www.annepro.net/products/anne-pro-2)** with Gateron Switches, powered by [QMK](https://docs.qmk.fm/)
+**[Anne Pro 2](https://www.annepro.net/products/anne-pro-2)** with Gateron Brown Switches, powered by [QMK](https://docs.qmk.fm/)
 * Adaptive mode: a special layer that adapts the setup to any computer (Windows or Linux) with standard US QWERTY layout, withuot needing any additional software (except for Windows that needs [WinCompose](https://github.com/samhocevar/wincompose) for characters outside US QWERTY)
 
-![anne pro 2](annepro2/photo.jpg)
+![anne pro 2](anne_pro2/photo.jpg)
 
 
 ### Default Layer
