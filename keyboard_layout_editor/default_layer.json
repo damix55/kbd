@@ -1,6 +1,6 @@
 [
   {
-    "css": ".keylabel0, .keylabel6 {\n    font-weight: 400 !important;\n}\n\n.keylabel8 {\n    color: #999 !important;\n}\n\n* { font-family: 'Fira Sans'; }"
+    "css": ".keylabel0, .keylabel6 {\n    font-weight: 400 !important;\n}\n\n.keylabel7 {\n    font-family: 'FiraCode Nerd Font';\n}\n\n.keylabel8 {\n    opacity: 0.6;\n}\n\n.keylabel0,\n.keylabel1,\n.keylabel2,\n.keylabel3,\n.keylabel4,\n.keylabel5,\n.keylabel6,\n.keylabel8,\n.keylabel9 {\n    font-family: 'Fira Sans';\n}\n\n"
   },
   [
     {
@@ -8,22 +8,27 @@
     },
     "Esc",
     {
-      "c": "#ffffff"
+      "c": "#ffffff",
+      "a": 7
     },
-    "!\n1",
-    "@\n2",
-    "#\n3",
-    "$\n4",
-    "%\n5",
-    "^\n6",
-    "+\n=",
-    "&\n7",
-    "*\n8",
-    "(\n9",
-    ")\n0",
-    "_\n-",
+    "",
+    "",
+    "",
+    "",
+    "",
+    {
+      "a": 5
+    },
+    "Prev.\n玲\n\n\n\n\nTrack",
+    "Play/\n契\n\n\n\n\nPause",
+    "Next\n怜\n\n\n\n\nTrack",
+    "Print\n\n\n\n\n\nScreen",
+    "UC\n \n\n\n\n\nSwitch",
+    "Layout\nﯔ\n\n\n\n\nSwitch",
+    "Sleep\n⏾",
     {
       "c": "#c5c7ca",
+      "a": 4,
       "w": 2
     },
     "Delete"
@@ -88,9 +93,10 @@
   ],
   [
     {
+      "c": "#a3bfe0",
       "w": 2.25
     },
-    "Shift",
+    "Shift\n\n\n(",
     {
       "c": "#ffffff"
     },
@@ -105,13 +111,14 @@
     "<\n,\n\n$",
     ">\n.\n\n%",
     {
-      "c": "#c5c7ca",
+      "c": "#a3bfe0",
       "w": 2.75
     },
-    "Shift"
+    "Shift\n\n\n)"
   ],
   [
     {
+      "c": "#c5c7ca",
       "w": 1.25
     },
     "Ctrl",
@@ -120,30 +127,34 @@
     },
     "Alt",
     {
+      "c": "#a3bfe0",
       "w": 1.25
     },
-    "Fn1",
+    "Nav\n\n\nSuper",
     {
+      "c": "#c5c7ca",
       "a": 7,
       "w": 6.25
     },
     "",
     {
+      "c": "#a3bfe0",
       "a": 4,
       "w": 1.25
     },
-    "Alt",
+    "Alt/\n\n\n⇦\n\n\nSymb",
     {
       "w": 1.25
     },
-    "Ctrl",
+    "Ctrl\n\n\n⇩",
     {
       "w": 1.25
     },
-    "Fn2",
+    "\n\n\n⇧",
     {
+      "t": "#000000\n\n\n#000000",
       "w": 1.25
     },
-    "Super"
+    "Super\n\n\n⇨"
   ]
 ]
