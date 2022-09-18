@@ -52,6 +52,7 @@ Override Colemak layout in `/usr/share/X11/xkb/symbols/US` with the one in `cole
 - [ ] Firmware binaries
 - [ ] New keyboard photo
 - [ ] Laptop layout picture (maybe)
+- [ ] Explain wide layout (with kbd.h mod)
 
 ## Support me!
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/damix)
