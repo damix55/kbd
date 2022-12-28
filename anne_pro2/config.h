@@ -21,3 +21,6 @@
 
 // Windows mode for unicode
 #define UNICODE_SELECTED_MODES UC_LNX, UC_WINC
+
+// Maximum time allowed between taps of your Tap Dance key, in milliseconds
+#define TAPPING_TERM 175
