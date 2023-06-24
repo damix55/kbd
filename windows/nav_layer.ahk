@@ -1,21 +1,25 @@
-﻿#NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
+#NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
 ; #Warn  ; Enable warnings to assist with detecting common errors.
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
-<!Backspace::send {Delete}
+<!n::Send {Left}
+<!e::Send {Down}
+<!i::Send {Up}
+<!o::Send {Right}
+<!u::Send {PgDn}
+<!y::Send {PgUp}
 
-<!n::send {Left}
-<!e::send {Down}
-<!i::send {Up}
-<!o::send {Right}
+^<!n::Send ^{Left}
+^<!e::Send ^{Down}
+^<!i::Send ^{Up}
+^<!o::Send ^{Right}
+^<!u::Send ^{PgDn}
+^<!y::Send ^{PgUp}
 
-^<!n::send ^{Left}
-^<!e::send ^{Down}
-^<!i::send ^{Up}
-^<!o::send ^{Right}
-
-+<!n::send +{Left}
-+<!e::send +{Down}
-+<!i::send +{Up}
-+<!o::send +{Right}
++<!n::Send +{Left}
++<!e::Send +{Down}
++<!i::Send +{Up}
++<!o::Send +{Right}
++<!u::Send +{PgDn}
++<!y::Send +{PgUp}
