@@ -28,7 +28,8 @@ xkb_symbols "colemak" {
 	key <AD10> { [ y, Y, U002a, NoSymbol ] }; // LATIN SMALL LETTER Y, LATIN CAPITAL LETTER Y, <none>, ASTERISK, <none>
 	key <AD11> { [ U003b, U003a, U0023, NoSymbol ] }; // SEMICOLON, COLON, <none>, NUMBER SIGN, <none>
 	key <AD12> { [ U0027, U0022, U0026, NoSymbol ] }; // APOSTROPHE, QUOTATION MARK, <none>, AMPERSAND, <none>
-    
+	key <RTRN> { [ U005c, U007c, U007e, NoSymbol ] }; // REVERSE SOLIDUS, VERTICAL LINE, <none>, TILDE, <none>
+	    
 	key <AC01> { [ a, A, U00e0, U00c0 ] }; // LATIN SMALL LETTER A, LATIN CAPITAL LETTER A, <none>, LATIN SMALL LETTER A WITH GRAVE, LATIN CAPITAL LETTER A WITH GRAVE
 	key <AC02> { [ r, R, 4, NoSymbol ] }; // LATIN SMALL LETTER R, LATIN CAPITAL LETTER R, <none>, DIGIT FOUR, <none>
 	key <AC03> { [ s, S, 5, NoSymbol ] }; // LATIN SMALL LETTER S, LATIN CAPITAL LETTER S, <none>, DIGIT FIVE, <none>
@@ -42,7 +43,8 @@ xkb_symbols "colemak" {
 	key <AC11> { [ o, O, U00f2, U00d2 ] }; // LATIN SMALL LETTER O, LATIN CAPITAL LETTER O, <none>, LATIN SMALL LETTER O WITH GRAVE, LATIN CAPITAL LETTER O WITH GRAVE
 
 	key <TLDE> { [ U0060, U007e, NoSymbol, NoSymbol ] }; // GRAVE ACCENT, TILDE, <none>, <none>, <none>
-	key <BKSL> { [ U005c, U007c, U007e, NoSymbol ] }; // REVERSE SOLIDUS, VERTICAL LINE, <none>, TILDE, <none>
+	key <BKSL> { [ Return ] };
+	key <LSGT> { [ Shift_L ] };
 
 	key <AB01> { [ z, Z, 1, NoSymbol ] }; // LATIN SMALL LETTER Z, LATIN CAPITAL LETTER Z, <none>, DIGIT ONE, <none>
 	key <AB02> { [ x, X, 2, NoSymbol ] }; // LATIN SMALL LETTER X, LATIN CAPITAL LETTER X, <none>, DIGIT TWO, <none>
@@ -56,7 +58,6 @@ xkb_symbols "colemak" {
 	key <AB10> { [ U002e, U003e, U0025, U2265 ] }; // FULL STOP, GREATER-THAN SIGN, <none>, PERCENT SIGN, GREATER-THAN OR EQUAL TO
 
 	key <SPCE> { [ U0020, U0020, U0020, U00a0 ] }; // SPACE, SPACE, <none>, SPACE, NO-BREAK SPACE
-	key <LSGT> { [ U002d, U005f, U2013, U2014 ] }; // HYPHEN-MINUS, LOW LINE, <none>, EN DASH, EM DASH
 	key <KPDL> { [ U002e, U002e, NoSymbol, NoSymbol ] }; // FULL STOP, FULL STOP, , ,
 
     key <CAPS> { [ BackSpace ] };

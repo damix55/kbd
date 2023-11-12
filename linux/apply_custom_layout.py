@@ -16,7 +16,7 @@ else:
 xkb_path = '/usr/share/X11/xkb/symbols'
 backup_path = os.path.join(xkb_path, 'us_backup')
 us_path = os.path.join(xkb_path, 'us')
-custom_path = os.path.join(os.path.dirname(os.path.realpath(__file__)), 'colemak_custom.xkb')
+custom_path = os.path.join(os.path.dirname(os.path.realpath(__file__)), input_file)
 
 # Check if backup exists, if not, create it
 if not os.path.exists(backup_path):
