@@ -3,7 +3,15 @@
 import os
 import shutil
 import re
+import sys
 
+# read arguments
+if len(sys.argv) != 2:
+    input_file = 'colemak_custom'
+
+else:
+    input_file = sys.argv[1]
+    
 
 xkb_path = '/usr/share/X11/xkb/symbols'
 backup_path = os.path.join(xkb_path, 'us_backup')
