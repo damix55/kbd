@@ -7,7 +7,7 @@ import sys
 
 # read arguments
 if len(sys.argv) != 2:
-    input_file = 'colemak_custom'
+    input_file = 'colemak_custom.kbd'
 
 else:
     input_file = sys.argv[1]
