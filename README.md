@@ -43,14 +43,13 @@ Custom Colemak layout with Right Alt layer of accented letters, symbols and numb
 Override Colemak layout in `/usr/share/X11/xkb/symbols/US` with the one in `colemak_custom.xkb` using the `apply_custom_layout.py` script. Then select *Colemak* layout under *English (US)* in settings
 
 ## Todo
-- [ ] Script for autoinstalling Colemak Custom in Linux
-- [ ] Finish nav layer on AutoHotkey
+- [ ] Finish this README
+- [ ] Create QMK firmware for the Q1
+- [ ] kmonad on Windows?
+- [ ] Align all the layouts
 - [ ] Finish mapping missing keys
 - [ ] Script for compiling QMK firmware
-- [ ] Firmware binaries
-- [ ] New keyboard photo
-- [ ] Laptop layout picture (maybe)
-- [ ] Explain wide layout (with kbd.h mod)
+- [ ] Explain wide layout on Windows (with kbd.h mod)
 
 ## Support me!
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/damix)
