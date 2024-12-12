@@ -306,7 +306,7 @@
                                     "key_code": "k",
                                     "modifiers": {
                                         "mandatory": ["right_option"],
-                                        "optional": ["shift", "right_command", "left_option", "control", "caps_lock"]
+                                        "optional": ["right_command", "left_option", "control", "caps_lock"]
                                     }
                                 },
                                 "to": [
